@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Dazzle Pizza</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<h1 style="text-align:center;font-size:600%; color:white;font-family:cursive;"">Contact Us</h1>
+<body background="https://northstarrestaurantpos.com/wp-content/uploads/2017/02/Website_Graphics_Pizza_Background-4.jpg">
+  <style>
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .btn {
+      background-color: black;
+      border: none;
+      color: black;
+      padding: 12px 16px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    /* Darker background on mouse-over */
+    .btn:hover {
+      background-color: white;
+      font-weight:900;
+    }
+    </style>
+    </head>
+    <body>
+
+      <a href="Restaurant Site.html"button class="btn"><i class="fa fa-home"></i></button></a>
+      <a href="menu2.html"button class="btn"><i class="fa fa-bars"></i> Menu</button></a>
+      <a href="Contact2.html"button class="btn"><i class="fa fa-envelope"></i> Contact Us</button></a>
+
+    </body>
+
+    <br><br>
+      <form action="submit.html" method="POST">
+              <!-- First Name label and textbox -->
+        <label style=color:white;font-weight:900; for="Name">Name:</label><br />
+        <input type="text" id="firstName" name="firstName"><br />
+              <!-- Phone Number label and textbox -->
+        <label style=color:white;font-weight:900; for="phone">Phone Number:</label><br />
+        <input type="text"id="phone" name="phone"><br />
+              <!-- Dropdown menu -->
+        <label style=color:white;font-weight:900; for="contact">Reason For Inquiry:</label><br />
+        <select id="contact" name="contact">
+          <option value="default" selected>--Catering--</option>
+          <option value="Private Party">Private Party Eastern</option>
+          <option value="Feedback">Feedback</option>
+          <option value="Other">Other</option>
+
+        </select>
+              <!-- Check list -->
+        <fieldset>
+        <legend style=color:white;font-weight:900;>Best days to contact you (check all that apply):</legend><br />
+        <input type="checkbox" id="frontEnd" name="interest" value="frontEnd">
+        <label style=color:white; for="frontEnd">M</label>			<br />
+        <input type="checkbox" id="BackEnd" name="interest" value="backEnd">
+        <label style=color:white; for="backEnd">T</label><br />
+        <input type="checkbox" id="database" name="interest" value="database">
+        <label style=color:white; for="database">W</label><br />
+        <input type="checkbox" id="database" name="interest" value="database">
+        <label style=color:white; for="database">TH</label><br />
+        <input type="checkbox" id="database" name="interest" value="database">
+        <label style=color:white;for="database">F</label><br />
+      </fieldset>
+                  <!-- Radio buttons -->
+            <fieldset>
+            <legend style=color:white;font-weight:900;>Have you been to the restuarant?</legend><br />
+            <input type="radio" id="choice1" name="questionnaire" value="yes">
+            <label style=color:white; for="choice1">Yes</label><br />
+            <input type="radio" id="choice2" name="questionnaire" value="no">
+            <label style=color:white; for="choice2">No</label><br />
+            </fieldset>
+                  <!-- Textarea -->
+            <label style=color:white;font-weight:900;for="info">Additional Information:</label><br />
+            <textarea id="info"></textarea><br />
+                  <!-- Submit button -->
+            <input type="submit" name="submit" value="Submit">
+          </form>
+          <br><br>
+          <p style="color:white;text-align:center;font-size:10px;">800 Dove St.</p>
+          <p style="color:white;text-align:center;font-size:10px;">Dallas, TX 75019 </p>
+          <p style="color:white;text-align:center;font-size:10px;">972-222-4444 </p>
+
+        </body>
+      </html>
